@@ -25,9 +25,9 @@ bool Application2D::startup()
 	
 	m_pStates = new StateMachine();
 	m_pStates->AddState(new Splash(), 0);
-	//m_pStates->AddState(new Loading(), 1);
+	m_pStates->AddState(new Loading(), 1);
 	//m_pStates->AddState(new Menu(), 2);
-	//m_pStates->AddState(new Game, 3);
+	//m_pStates->AddState(new Game(), 3);
 
 	m_pStates->PushState(0);
 

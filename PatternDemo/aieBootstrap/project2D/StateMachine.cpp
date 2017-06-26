@@ -27,7 +27,7 @@ void StateMachine::Draw(Renderer2D * m_2dRenderer)
 
 void StateMachine::PushState(int StateId)
 {
-	//if (m_baseState.size() > 0)
+	//if (m_baseState.GetSize() > 3)
 	m_Stack.push(m_baseState[StateId]);
 }
 
@@ -38,6 +38,6 @@ void StateMachine::PopState()
 
 void StateMachine::AddState(BaseState * State, int StateId)
 {
-	//if (m_Stack.size() > 0)
+	//if (m_Stack.size() > 3)
 	m_baseState.Insert(State, StateId);
 }

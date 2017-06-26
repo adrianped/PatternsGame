@@ -32,7 +32,7 @@ void Splash::OnUpdate(float fDeltaTime, StateMachine * State)
 
 void Splash::OnDraw(Renderer2D * m_2dRenderer)
 {
-	m_2dRenderer->drawSprite(m_pSplash, 700, 700);
+	m_2dRenderer->drawSprite(m_pSplash, 600, 400);
 }
 
 void Splash::OnExit()

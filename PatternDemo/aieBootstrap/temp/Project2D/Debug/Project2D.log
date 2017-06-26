@@ -1,3 +1,3 @@
-﻿  Splash.cpp
-c:\users\s171699\desktop\patterndemo\aiebootstrap\project2d\splash.cpp(27): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-  Project2D.vcxproj -> C:\Users\s171699\Desktop\PatternDemo\aieBootstrap\temp\Project2D\Debug\Project2D.exe
+﻿  StateMachine.cpp
+  Project2D.vcxproj -> C:\Users\Adrian\Desktop\Game\PatternDemo\aieBootstrap\temp\Project2D\Debug\Project2D.exe
+  Project2D.vcxproj -> C:\Users\Adrian\Desktop\Game\PatternDemo\aieBootstrap\temp\Project2D\Debug\Project2D.pdb (Partial PDB)
